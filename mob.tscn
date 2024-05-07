@@ -48,7 +48,7 @@ animations = [{
 radius = 24.0
 height = 66.0
 
-[node name="Mob" type="RigidBody2D"]
+[node name="Mob" type="RigidBody2D" groups=["mobs"]]
 collision_mask = 0
 gravity_scale = 0.0
 script = ExtResource("1_2ddwk")
@@ -57,7 +57,7 @@ script = ExtResource("1_2ddwk")
 scale = Vector2(0.5, 0.5)
 sprite_frames = SubResource("SpriteFrames_rybog")
 animation = &"fly"
-frame_progress = 0.261565
+frame_progress = 0.960454
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
 
